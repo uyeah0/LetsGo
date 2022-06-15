@@ -30,7 +30,7 @@ public class ScoreManager : MonoBehaviour
         myAnim = GetComponent<Animator>();
         // 시작과 동시에 값을 0으로 초기화
         currentScore = 0;
-        txtScore.text = "0";
+        txtScore.text = "000";
     }
 
 
